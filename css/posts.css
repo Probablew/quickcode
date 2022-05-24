@@ -1,0 +1,21 @@
+.card {
+  background-color: var(--sbg);
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+}
+
+.card:hover {
+  transform: translateY(-0.2rem);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.35);
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.list__1 {
+  grid-column: 3;
+  grid-row: 3 / span 2;
+}
